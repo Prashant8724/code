@@ -18,6 +18,9 @@
     <center>Copyright 2023 &#169;<br>
     Made by Prashant Patel</center>
   </footer>
+    <div class="overlay">
+    <div class="text">Learn code</div>
+  </div>
 <style>
 h1:hover{
   background-color:blueviolet;
@@ -32,6 +35,18 @@ footer{
 }
 input{
   background-color: greenyellow;
+}
+  .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
 }
 body:hover{
   background-color:skyblue;
